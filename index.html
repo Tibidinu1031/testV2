@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+<section id="banner">
+    <img src="images/Logo.png" class="logo">
+    <div class="banner-text">
+        <h1>Neuro <br> <u>E</u>ntrepreneurship <br> Organization</h1>
+        <br>
+        <h2>EdTech company providing brain and behavior based education <br> for improved startup performance and wellbeing</h2>
+        <br>
+        <br>
+        <a href="https://www.producthunt.com/posts/neuroentrepreneurship?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-neuroentrepreneurship" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=447909&theme=neutral" alt="Neuroentrepreneurship - Provides&#0032;startup&#0032;education&#0032;through&#0032;neuroscience&#0032;lenses | Product Hunt" style="width: 250px; height: 48px;" color= "forestgreen" width="250" height="54" /></a>
+        <div class="banner-btn">
+            <a href="https://tibidinu1031.github.io/contactform3/" target="_blank"><span></span>Join Waitlist</a>
+            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3jr0l217Po7rCbN-MTUU2b6V3iS5t0EEMP0PPw5NRYcUnBFB87qh1ksn5jvG_MJRBvFqzZnfH1" target="_blank"><span></span>Book A Call</a>
+        </div>
+        <div class="social-media">
+    <h6>Created by Tiberius Dinu: <a id="linkedin" href="https://www.linkedin.com/in/tiberius-dinu-51a625170/" target="_blank">LinkedIn</a> <strong>|</strong> <a id="github" href="https://github.com/Tibidinu1031" target="_blank">GitHub</a><strong> | </strong><a id="X" href="https://twitter.com/Tiberiusdinu14" target="_blank">X</a></h6>
+    </div>
+        </div>
+    
+</section>
+    
+<div id="SideNav">
+    <nav>
+    <ul>
+        <br>
+        <br>
+        <br>
+        <li><a href="https://www.youtube.com/watch?v=CdsemXUKZh0" target="_blank"><strong>YOUTUBE COURSE</strong></a></li>
+        <li><a href="Behavioral%20Neurosciene%20101.pdf" target="_blank"><strong>INTRODUCTORY COURSE</strong></a></li>
+        <li><a href="Company%20Description.pdf" target="_blank"><strong>COMPANY DESCRIPTION</strong></a></li>
+        <li><strong>NOTES AND IMAGES (COMING SOON)</strong></li>
+        <li><a href="FAQ.html" target="_blank"><strong>FAQ</strong></a></li>
+        <hr>
+        <li><em>ACADEMIC STUDIES ON NEUROENTREPRENEURSHIP:</em></li>
+        <li><a href="https://link.springer.com/article/10.1007/s11365-024-00969-3" target="_blank"><EM>SPRINGER LINK (2024)</EM></a></li>
+        <li><a href="https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.810550/full" target="_blank"><em>FRONTIERS (2022)</em></a></li>
+        <li><a href="https://www.sciencedirect.com/science/article/pii/S1877050920322201" target="_blank"><em>SCIENCE DIRECT (2020)</em></a></li>
+        
+        
+    </ul>
+    </nav>
+</div>   
+<div id="menuBtn">
+    <img src="images/menu.png" id="menu">
+</div>
+    
+
+    
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var SideNav = document.getElementById("SideNav")
+var menu = document.getElementById("menu")
+
+SideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+    if(SideNav.style.right == "-250px"){
+        SideNav.style.right = "0";
+        menu.src = "images/close.png";
+    }
+    else{
+        SideNav.style.right = "-250px";
+        menu.src = "images/menu.png";
+    }
+}
+
+
+</script>
+    
+</body>
+
+</html>

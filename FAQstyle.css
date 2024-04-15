@@ -1,0 +1,13 @@
+body{
+text-align: center;
+color: forestgreen; 
+
+}
+h1{
+font-size: 38px;
+    color: forestgreen;
+}
+.question, .answer{
+font-size: 21px;
+color: forestgreen;
+}
